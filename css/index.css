@@ -11,6 +11,10 @@ and open the template in the editor.
     margin-top: 25vh;
 }
 
+.img-circle {
+    border: 0.2em solid #000;
+}
+
 .name {
     font-family: Corbel;
     font-weight: bolder;
