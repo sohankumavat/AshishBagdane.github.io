@@ -1,3 +1,146 @@
-body {
-  font-family: "Segoe UI Light";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2017, 3:12:55 PM
+    Author     : Ashish
+*/
+.container-fluid {
+    margin-top: 25vh;
+}
+
+.name {
+    font-family: Corbel;
+    font-weight: bolder;
+    font-size: 75pt;
+}
+
+a {
+    font-size: 24pt;
+}
+
+.link {
+    margin-top: 10vh;
+}
+
+.bm {
+    margin-top: 10vh;
+    letter-spacing: 10px;
+}
+
+.row {
+    font-family: Century Gothic;
+    font-size: 20pt;
+}
+
+.bg {
+    font-size: 80pt;
+    font-weight: bolder;
+}
+
+q {
+    font-weight: bolder;
+}
+            
+@media (max-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .img-circle {
+        height: 125px;
+        width: 120px;
+    }
+                
+    .row {
+        font-size: 8pt;
+    }
+
+    .bg {
+        font-size: 32pt;
+    }
+}
+            
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .img-circle {
+        height: 125px;
+        width: 120px;
+    }
+    
+    .row {
+        font-size: 8pt;
+    }
+
+    .bg {
+        font-size: 32pt;
+    }
+}
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .img-circle {
+        height: 125px;
+        width: 120px;
+    }
+    
+    .row {
+        font-size: 8pt;
+    }
+
+    .bg {
+        font-size: 32pt;
+    }
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .img-circle {
+        height: 250px;
+        width: 240px;
+    }
+    
+    .name {
+        font-size: 36pt;
+    }
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .img-circle {
+        height: 380px;
+        width: 360px;
+    }
+    
+    .row {
+        font-size: 15pt;
+    }
+
+    .bg {
+        font-size: 45pt;
+    }
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .img-circle {
+        height: 380px;
+        width: 360px;
+    }
+
+    .row {
+        font-size: 18pt;
+    }
+
+    .bg {
+        font-size: 60pt;
+    }
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .img-circle {
+        height: 380px;
+        width: 360px;
+    }
+
+    .row {
+        font-size: 20pt;
+    }
+
+    .bg {
+        font-size: 80pt;
+    }
 }
