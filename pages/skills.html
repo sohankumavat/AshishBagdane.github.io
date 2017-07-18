@@ -15,6 +15,12 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="icon" type="image/png" href="../img/heart.png"/>
+        <style>
+            .other > div > img {
+                height: 30vh;
+                width: 15vw;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid text-center">
@@ -23,7 +29,34 @@ and open the template in the editor.
                 <h4>This is what I know</h4>
             </div>
             <div class="row">
-                <a href="home.html" class="active">Home</a>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 other">
+                    <div class="row">
+                        <img src="../img/C.png" alt="C Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                    <div class="row">
+                        <img src="../img/CPP.jpg" alt="CPP Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                    <div class="row">
+                        <img src="../img/SQL.png" alt="SQL Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <img src="../img/Java.png" alt="Java" class="img-thumbnail img-responsive"/>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 other">
+                    <div class="row">
+                        <img src="../img/HTML5.png" alt="HTML Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                    <div class="row">
+                        <img src="../img/CSS3.png" alt="CSS Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                    <div class="row">
+                        <img src="../img/JS.png" alt="JavaScript Language" class="img-thumbnail img-responsive"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="../home.html" class="active">Home</a>
             </div>
         </div>
     </body>
